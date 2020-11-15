@@ -28,7 +28,7 @@ body p{
 }
 
 .container{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 50px;
   
@@ -62,7 +62,7 @@ nav ul li a{
   text-decoration: none;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.5vw;
   color: #1F3960;
   transition: 300ms;
 }
