@@ -112,6 +112,7 @@ nav ul li a:hover{
 #quote{
   font-size: 2.5vw;
   font-style: italic;
+  font-weight: 400;
 }
 
 #pQuote{
