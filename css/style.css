@@ -142,8 +142,6 @@ nav ul li a:hover{
   display: inline-block;
   padding: 40px;
   width: 10vw;
-  text-align: none;
-  text-align-last: left;
   /* border-radius: 0px 75px 0px 75px; */
   background: #F8F7F6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
