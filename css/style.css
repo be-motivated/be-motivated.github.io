@@ -43,7 +43,8 @@ header{
 header img {
   float: left; 
   cursor: pointer;
-  width: 13%;
+  width: 14%;
+  min-width: 10%
   height: auto;
 }
 
