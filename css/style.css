@@ -14,7 +14,7 @@ body{
 
 h1{
   font-family: "ubuntu", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5vw;
   font-weight: 500;
   color: #1F3960;
   text-transform: uppercase;
@@ -22,13 +22,13 @@ h1{
 
 body p{
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2vw;
   font-weight: 300;
   color: #000;
 }
 
 .container{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 50px;
   
@@ -43,7 +43,8 @@ header{
 header img {
   float: left; 
   cursor: pointer;
-  width: 13%;
+  width: 14%;
+  min-width: 10%
   height: auto;
 }
 
@@ -62,7 +63,7 @@ nav ul li a{
   text-decoration: none;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.5vw;
   color: #1F3960;
   transition: 300ms;
 }
@@ -109,14 +110,14 @@ nav ul li a:hover{
 /* Quote CSS + Img */
 
 #quote{
-  font-size: 2.5em;
+  font-size: 2.5vw;
   font-style: italic;
 }
 
 #pQuote{
   color: #1F3960;
   text-align: right;
-  font-size: 1.5em; 
+  font-size: 1.5vw; 
 }
 
 #photoPres{
@@ -140,9 +141,8 @@ nav ul li a:hover{
 #about p{
   display: inline-block;
   padding: 40px;
-  width: 300px;
-  text-align: justify;
-  text-align-last: left;
+  width: 25vw;
+  margin-right: 29.8px;
   border-radius: 0px 75px 0px 75px;
   background: #F8F7F6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
@@ -153,13 +153,9 @@ nav ul li a:hover{
 }
 
 #aboutPic{
-  float: right;
-  border-radius: 75px 0 75px 0;
-  overflow: auto;
-  width: 64.4%;
+  width: 56%;
   height: auto;
-  margin: 30px; 
-  padding: 0;
+  border-radius: 75px 0 75px 0;
   box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
   0 2px 2px rgba(0,0,0,0.08), 
   0 4px 4px rgba(0,0,0,0.08), 
@@ -171,6 +167,7 @@ nav ul li a:hover{
 
 #video h1{
   text-align: center;
+  clear: both;
 }
 
 video {
