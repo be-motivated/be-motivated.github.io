@@ -109,14 +109,14 @@ nav ul li a:hover{
 /* Quote CSS + Img */
 
 #quote{
-  font-size: 10vw;
+  font-size: 5vw;
   font-style: italic;
 }
 
 #pQuote{
   color: #1F3960;
   text-align: right;
-  font-size: 5vw; 
+  font-size: 2vw; 
 }
 
 #photoPres{
