@@ -177,6 +177,10 @@ video {
   width: 100%;
 }
 
+.working{
+text-align: center;
+}
+
 /* Last columns CSS */
 
 .box{
